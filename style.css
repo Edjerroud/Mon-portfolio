@@ -6,7 +6,38 @@
 }
  *, *::before, *::after {
 	 box-sizing: border-box;
-}
+ }
+ .navbar  {
+	margin-bottom: 30px;
+	background-color: rgba(4, 131, 182, 0.473);
+	justify-content: center;
+ }
+ a {
+	 text-decoration: none;
+ }
+ .tel:before {
+    font-family: "FontAwesome"; 
+    font-weight: 2px; 
+    content: "\f095";
+	margin-right: 10px;
+	margin-left: 90px;
+	
+ }
+ .mail:before {
+	font-family: "FontAwesome"; 
+    font-weight: 2px; 
+    content: "\f0e0";
+	margin-right: 10px;
+	margin-left: 90px;
+ }
+ .linkedin:before {
+	font-family: "FontAwesome"; 
+    font-weight: 2px; 
+    content: "\f0e1";
+	margin-right: 10px;
+	margin-left: 90px;
+ }
+
  .honeycomb {
 	 display: flex;
 	 flex-wrap: wrap;
@@ -98,7 +129,7 @@ footer {
     animation-name: slidein;
   }
   p{
-	line-height: 35px;
+	line-height: 70px;
   }
   @keyframes slidein {
 	from {
