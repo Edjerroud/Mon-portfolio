@@ -45,6 +45,14 @@
 	margin-left:0 ;
 	font-size:35px ;
  }
+ .github::before{
+	font-family: "FontAwesome";
+	font-weight: 2px; 
+	content: "\f092"; 
+	margin-right: 5px;
+	margin-left:0 ;
+	font-size:35px ;
+ }
 
  .honeycomb {
 	 display: flex;
@@ -161,6 +169,7 @@ footer {
 		flex-direction: column;
 		flex-wrap: wrap;
 	}
+}
 	p {
 		display:flex;
 		flex-direction: column;
@@ -197,5 +206,5 @@ footer {
 	 .honeycomb__placeholder:nth-child(7n + 7), .honeycomb__placeholder:nth-child(7n + 9), .honeycomb__placeholder:nth-child(7n + 11) {
 		 display: block;
 	}
-	
+}
 	
